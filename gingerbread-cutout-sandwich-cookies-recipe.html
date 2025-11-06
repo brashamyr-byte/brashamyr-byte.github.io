@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gingerbread Cookie Sandwiches</title>
+  <meta name="description" content="Delicious gingerbread cookies sandwiched with orange buttercream and cranberry sauce. A perfect treat for the holiday season!" />
+  <meta name="keywords" content="gingerbread cookies, sandwich cookies, cranberry sauce, buttercream, holiday cookies" />
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gingerbread Cookie Sandwiches" />
+  <meta property="og:description" content="Make these delightful gingerbread cookie sandwiches filled with orange buttercream and cranberry sauce, perfect for the holidays!" />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="en_US" />
+
+  <style>
+    /* Root Variables */
+    :root {
+      --primary-color: #D65F5F;
+      --secondary-color: #F1C6B8;
+      --accent-color: #F4A261;
+      --background-color: #F9F9F9;
+      --button-bg: #2A9D8F;
+      --button-hover: #1E7B6B;
+      --text-color: #333;
+      --highlight-color: #E9CBA7;
+    }
+
+    /* Global Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: var(--background-color);
+      margin: 0;
+      padding: 0;
+      color: var(--text-color);
+    }
+
+    h1, h2, h3 {
+      font-family: 'Georgia', serif;
+      color: var(--primary-color);
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      margin-top: 40px;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 1.2rem;
+      color: var(--secondary-color);
+      margin: 20px 0;
+      font-style: italic;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+    }
+
+    .hero-image {
+      width: 100%;
+      max-width: 800px;
+      margin: 20px auto;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      display: block;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: var(--button-bg);
+      color: white;
+      padding: 12px 30px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      margin-top: 30px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: var(--button-hover);
+    }
+
+    /* Grid Layout for Ingredients & Instructions */
+    .recipe-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .recipe-layout > div {
+      background-color: #FFF4E1;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    }
+
+    .recipe-layout h2 {
+      font-size: 1.8rem;
+      color: var(--primary-color);
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .ingredients ul, .instructions ol {
+      padding-left: 20px;
+    }
+
+    .ingredients li, .instructions li {
+      margin: 10px 0;
+    }
+
+    /* Hover Effect */
+    .ingredients li:hover, .instructions li:hover {
+      background-color: var(--highlight-color);
+      color: white;
+      padding-left: 10px;
+      transition: all 0.3s ease;
+    }
+
+    /* Button for Sharing */
+    .share-btn {
+      display: inline-block;
+      padding: 10px 25px;
+      background-color: var(--accent-color);
+      color: white;
+      border-radius: 25px;
+      font-size: 1rem;
+      text-decoration: none;
+      margin-top: 40px;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+    .cta-btn {
+            display: inline-block;
+            background-color: #8B5E3C;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            margin-top: 30px;
+        }
+
+    .share-btn:hover {
+      background-color: #E07B47;
+    }
+
+    /* Responsive Design */
+    @media(max-width: 768px) {
+      .recipe-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-image {
+        max-width: 100%;
+      }
+    }
+
+    /* Footer Styling */
+    footer {
+      text-align: center;
+      font-size: 1rem;
+      margin-top: 40px;
+      color: var(--secondary-color);
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Gingerbread Cookie Sandwiches</h1>
+      <p class="subtitle">Delicious gingerbread cookies filled with orange buttercream and cranberry sauce. Perfect for your holiday table!</p>
+      <img src="gingerbread-cutout-sandwich-cookies-recipe.jpg" alt="Gingerbread Cookie Sandwiches" class="hero-image">
+      <a href="https://example.com" class="btn">Back to Homepage</a>
+    </header>
+
+    <section class="recipe-layout">
+      <!-- Ingredients Section -->
+      <div class="ingredients">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>3 1/4 cups all-purpose flour, plus more for dusting</li>
+          <li>1/4 cup cornstarch</li>
+          <li>2 tsp. ground ginger</li>
+          <li>2 tsp. ground cinnamon</li>
+          <li>1 tsp. baking soda</li>
+          <li>1/2 tsp. kosher salt</li>
+          <li>1/4 tsp. ground cloves</li>
+          <li>1/4 tsp. ground allspice</li>
+          <li>1/4 tsp. ground nutmeg</li>
+          <li>1/2 cup unsalted butter, room temperature</li>
+          <li>3/4 cup packed dark brown sugar</li>
+          <li>1/2 cup unsulphered molasses</li>
+          <li>1 large egg, room temperature</li>
+          <li>1 tsp. vanilla extract</li>
+          <li>3/4 cup unsalted butter (for filling)</li>
+          <li>2 tsp. tightly packed orange zest</li>
+          <li>1 tsp. vanilla extract (for filling)</li>
+          <li>1/4 tsp. kosher salt (for filling)</li>
+          <li>3 cups powdered sugar</li>
+          <li>1/2 cup jellied cranberry sauce</li>
+        </ul>
+      </div>
+
+      <!-- Instructions Section -->
+      <div class="instructions">
+        <h2>Instructions</h2>
+        <ol>
+          <li>In a bowl, whisk together the flour, cornstarch, ginger, cinnamon, baking soda, salt, cloves, allspice, and nutmeg.</li>
+          <li>Beat butter and brown sugar in a stand mixer until light and fluffy. Add molasses, egg, and vanilla, and beat until well combined.</li>
+          <li>Gradually add the dry ingredients in 3 batches, mixing well after each addition.</li>
+          <li>Form the dough into disks, wrap in plastic wrap, and refrigerate for 1–2 hours until firm.</li>
+          <li>Preheat the oven to 350°F and line baking sheets with parchment paper. Roll out the dough and cut into shapes.</li>
+          <li>Bake for 10–12 minutes. Let cool completely on a wire rack.</li>
+          <li>For the filling, beat the butter, orange zest, vanilla, and salt until smooth. Gradually add powdered sugar, then beat until fluffy.</li>
+          <li>Pipe a ring of frosting onto the underside of a whole cookie, fill with cranberry sauce, and top with a cookie with a cutout in the center to make a sandwich.</li>
+          <li>Serve with a dusting of powdered sugar if desired!</li>
+        </ol>
+      </div>
+    </section>
+
+    <footer>
+      Recipe created by Leah Perez. Enjoy your delicious Gingerbread Cookie Sandwiches!
+    </footer>
+  </div>
+  <a href="index.html" class="cta-btn" style="display:block; text-align:center; margin-top:20px;">Go to Homepage</a>
+</body>
+</html>
