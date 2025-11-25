@@ -9,9 +9,13 @@ nav ul li a:hover{color: aqua}
 .h{padding: 20px;margin: 20px;background-color: rgb(236, 227, 143);border-radius: 8px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.116);width: 80%;justify-content: center;align-items: center;margin-left: auto;margin-right: auto;}
 .h2{margin-bottom: 20px;color: rgb(82, 52, 14);}
 .h3{display: block;margin-left: auto;margin-right: auto; width: 100%;}
-.gg{display: flex;justify-content: space-between;}
+.gg{display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;}
 .g1{padding: 20px;margin: 20px;background-color: rgb(235, 215, 107);border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.116); width: 45%;}
 .g2{padding: 20px;margin: 20px;background-color:rgb(238, 156, 156);border-radius: 8px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.116);width: 45%;}
 .container {display: flex;background-color: rgb(251, 252, 208);}
 .item {background-color: rgb(255, 220, 187);margin: 1%;flex: 1;padding: 20px;border: 1px solid  rgba(245, 179, 179, 0.658)dd;text-align: center;margin-top: auto;margin-bottom: auto;}
+
 
